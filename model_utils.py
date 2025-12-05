@@ -12,5 +12,6 @@ def parse_hidden_layer_sizes(value: str):
             return (parsed,)
     except:
         pass
+    # Notify from a non-critical error.
     st.sidebar.warning("Invalid hidden layer format. Using default (100,).")
     return (100,)
