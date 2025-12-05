@@ -1,0 +1,167 @@
+{
+  "Titanic": {
+    "target": "Survived",
+    "metrics_file": "reports/metrics_Titanic.csv",
+    "confusion_file": "reports/confusion_Titanic_Decision_Tree.png",
+    "metrics_preview": {
+      "Accuracy": {
+        "Decision Tree": 0.7837837837837838,
+        "Perceptron": 0.7837837837837838,
+        "Multilayer Perceptron (MLP)": 0.7027027027027027
+      },
+      "Precision": {
+        "Decision Tree": 0.7837837837837838,
+        "Perceptron": 0.7775775775775775,
+        "Multilayer Perceptron (MLP)": 0.7095460845460845
+      },
+      "Recall": {
+        "Decision Tree": 0.7837837837837838,
+        "Perceptron": 0.7837837837837838,
+        "Multilayer Perceptron (MLP)": 0.7027027027027027
+      },
+      "F1 Score": {
+        "Decision Tree": 0.7837837837837838,
+        "Perceptron": 0.7781137781137781,
+        "Multilayer Perceptron (MLP)": 0.7056150027578599
+      }
+    }
+  },
+  "Diabetes": {
+    "target": "Outcome",
+    "metrics_file": "reports/metrics_Diabetes.csv",
+    "confusion_file": "reports/confusion_Diabetes_Decision_Tree.png",
+    "metrics_preview": {
+      "Accuracy": {
+        "Decision Tree": 0.7922077922077922,
+        "Perceptron": 0.7402597402597403,
+        "Multilayer Perceptron (MLP)": 0.7272727272727273
+      },
+      "Precision": {
+        "Decision Tree": 0.7922077922077922,
+        "Perceptron": 0.7481486598507876,
+        "Multilayer Perceptron (MLP)": 0.7214837049742711
+      },
+      "Recall": {
+        "Decision Tree": 0.7922077922077922,
+        "Perceptron": 0.7402597402597403,
+        "Multilayer Perceptron (MLP)": 0.7272727272727273
+      },
+      "F1 Score": {
+        "Decision Tree": 0.7922077922077922,
+        "Perceptron": 0.7430784082981587,
+        "Multilayer Perceptron (MLP)": 0.7232230932973366
+      }
+    }
+  },
+  "Iris": {
+    "target": "species",
+    "metrics_file": "reports/metrics_Iris.csv",
+    "confusion_file": "reports/confusion_Iris_Multilayer_Perceptron_(MLP).png",
+    "metrics_preview": {
+      "Accuracy": {
+        "Multilayer Perceptron (MLP)": 0.9666666666666667,
+        "Decision Tree": 0.9333333333333333,
+        "Perceptron": 0.8666666666666667
+      },
+      "Precision": {
+        "Multilayer Perceptron (MLP)": 0.9696969696969696,
+        "Decision Tree": 0.9333333333333333,
+        "Perceptron": 0.8674242424242424
+      },
+      "Recall": {
+        "Multilayer Perceptron (MLP)": 0.9666666666666667,
+        "Decision Tree": 0.9333333333333333,
+        "Perceptron": 0.8666666666666667
+      },
+      "F1 Score": {
+        "Multilayer Perceptron (MLP)": 0.9665831244778613,
+        "Decision Tree": 0.9333333333333333,
+        "Perceptron": 0.8624338624338624
+      }
+    }
+  },
+  "Mushroom": {
+    "target": "habitat",
+    "metrics_file": "reports/metrics_Mushroom.csv",
+    "confusion_file": "reports/confusion_Mushroom_Perceptron.png",
+    "metrics_preview": {
+      "Accuracy": {
+        "Perceptron": 0.6596923076923077,
+        "Decision Tree": 0.6369230769230769,
+        "Multilayer Perceptron (MLP)": 0.5698461538461539
+      },
+      "Precision": {
+        "Perceptron": 0.7762209251565984,
+        "Decision Tree": 0.7075133605533253,
+        "Multilayer Perceptron (MLP)": 0.6377019712765843
+      },
+      "Recall": {
+        "Perceptron": 0.6596923076923077,
+        "Decision Tree": 0.6369230769230769,
+        "Multilayer Perceptron (MLP)": 0.5698461538461539
+      },
+      "F1 Score": {
+        "Perceptron": 0.686506600919167,
+        "Decision Tree": 0.6430740177945744,
+        "Multilayer Perceptron (MLP)": 0.5898042970163888
+      }
+    }
+  },
+  "Wine Quality": {
+    "target": "quality",
+    "metrics_file": "reports/metrics_Wine_Quality.csv",
+    "confusion_file": "reports/confusion_Wine_Quality_Multilayer_Perceptron_(MLP).png",
+    "metrics_preview": {
+      "Accuracy": {
+        "Multilayer Perceptron (MLP)": 0.634375,
+        "Decision Tree": 0.584375,
+        "Perceptron": 0.459375
+      },
+      "Precision": {
+        "Multilayer Perceptron (MLP)": 0.614620915996755,
+        "Decision Tree": 0.5564596861471861,
+        "Perceptron": 0.48481000806915536
+      },
+      "Recall": {
+        "Multilayer Perceptron (MLP)": 0.634375,
+        "Decision Tree": 0.584375,
+        "Perceptron": 0.459375
+      },
+      "F1 Score": {
+        "Multilayer Perceptron (MLP)": 0.6201535385274584,
+        "Decision Tree": 0.5684946949602121,
+        "Perceptron": 0.440623680109051
+      }
+    }
+  },
+  "Customer Churn": {
+    "target": "Churn",
+    "metrics_file": "reports/metrics_Customer_Churn.csv",
+    "confusion_file": "reports/confusion_Customer_Churn_Decision_Tree.png",
+    "metrics_preview": {
+      "Accuracy": {
+        "Decision Tree": 0.794180269694819,
+        "Perceptron": 0.7849538679914834,
+        "Multilayer Perceptron (MLP)": 0.7792760823278921
+      },
+      "Precision": {
+        "Decision Tree": 0.7861010827678032,
+        "Perceptron": 0.7718762089463386,
+        "Multilayer Perceptron (MLP)": 0.7798450407746075
+      },
+      "Recall": {
+        "Decision Tree": 0.794180269694819,
+        "Perceptron": 0.7849538679914834,
+        "Multilayer Perceptron (MLP)": 0.7792760823278921
+      },
+      "F1 Score": {
+        "Decision Tree": 0.7887892263510906,
+        "Perceptron": 0.7743102786391904,
+        "Multilayer Perceptron (MLP)": 0.7795567653414033
+      }
+    }
+  },
+  "Breast Cancer": {
+    "error": "Missing file: data/breast_cancer"
+  }
+}
